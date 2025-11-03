@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Hospital - General Surgeon in Kadapa</title>
+
+    <!-- Google Font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION BAR -->
+    <header class="header">
+        <div class="container">
+            <nav class="header-nav">
+                <a href="#" class="logo nav-link" data-page="home">
+                    <img src="images/Sree Hospital Logo.png" alt="Sree Hospital Logo" style="height: 50px;">
+                </a>
+                
+                <div class="nav-links">
+                    <a href="#" class="nav-link" data-page="home">Home</a>
+                    <a href="#" class="nav-link" data-page="about">About</a>
+                    <a href="#" class="nav-link" data-page="services">Services</a>
+                    <a href="#" class="nav-link" data-page="contact">Contact</a>
+                </div>
+                
+<a href="#" class="nav-button nav-link hide-on-mobile" data-page="contact">Book Appointment</a>
+                
+                <button id="mobile-menu-button" class="mobile-menu-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21M3 6H21M3 18H21" stroke="#1f2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </nav>
+        </div>
+        
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#" class="nav-link" data-page="home">Home</a>
+            <a href="#" class="nav-link" data-page="about">About</a>
+            <a href="#" class="nav-link" data-page="services">Services</a>
+            <a href="#" class="nav-link" data-page="contact">Contact</a>
+            <a href="#" class="nav-button nav-link" data-page="contact">Book Appointment</a>
+        </div>
+    </header>
+
+    <!-- ========================================
+    == MAIN CONTENT AREA ==
+    ======================================== -->
+    <main id="main-content">
+        <!-- Page content loads here -->
+    </main>
+
+    <!-- ========================================
+    == FOOTER ==
+    ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: About -->
+                <div class="footer-about">
+                    <h3 class="logo">
+                        <img src="images/Sree Hospital Logo.png" alt="Sree Hospital Logo" style="height: 40px;">
+                    </h3>
+                    <p>Providing compassionate and advanced surgical care to the people of Kadapa.</p>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                        <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+                        <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                        <li><a href="https://www.google.com/maps/place/Sree+Hospital/@14.472195,78.8236116,17z/data=!3m1!4b1!4m5!3m4!1s0x3bb371e095462331:0x4b86b75a2f19a527!8m2!3d14.472195!4d78.8258003" target="_blank">Get Directions</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Contact Info -->
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i data-lucide="map-pin"></i><span>1/700-4, beside gayathri jr college, Dwaraka Nagar, Yerramukkapalli, Nagarajupeta, Kadapa, Andhra Pradesh 516001</span></li>
+                        <li><i data-lucide="phone"></i><span>+91 93906 28111</span></li>
+                        <li><i data-lucide="mail"></i><span>info@sreehospital.com</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Sree Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- ====================================================================
+    == PAGE TEMPLATES ==
+    ==================================================================== -->
+
+    <!-- HOME PAGE TEMPLATE -->
+    <template id="page-home">
+        <section class="section">
+            <div class="container grid grid-cols-2">
+                <div class="reveal">
+                    <h1 class="section-title">Expert Care in General, Laparoscopic & Gynaecological Surgery</h1>
+                    <p class="section-subtitle">Sree Hospital offers comprehensive and compassionate care in a wide range of surgical specialties. From advanced laparoscopic procedures to expert gynaecological solutions, our dedicated team is here for you.</p>
+<div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                        <a href="#" class="button button-primary nav-link hide-on-desktop" data-page="contact">Book an Appointment</a>
+                        <a href="#" class="button button-secondary nav-link" data-page="services">Our Services</a>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <img src="images/Hospital Building.jpg" alt="Sree Hospital Building">
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light">
+            <div class="container text-center">
+                <div class="reveal">
+                    <h2 class="section-title">Our Specialities</h2>
+                    <p class="section-subtitle">Services We Offer</p>
+                </div>
+                <div class="grid grid-cols-3" style="margin-top: 3rem;">
+                    <div class="reveal"><img src="images/General Surgery.png" alt="General Surgery"><h3>General Surgery</h3><p>Comprehensive care for a wide range of surgical conditions.</p></div>
+                    <div class="reveal"><img src="images/Laparoscopic Surgery.jpg" alt="Laparoscopic Surgery"><h3>Laparoscopic Surgery</h3><p>Minimally invasive procedures for faster recovery.</p></div>
+                    <div class="reveal"><img src="images/Gynecology.jpg" alt="Gynaecology"><h3>Gynaecology</h3><p>Expert care for women's health, from adolescence to menopause.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container grid grid-cols-2">
+                <div class="reveal">
+                    <img src="images/Doctor (Dr.C. Obula Reddy).jpg" alt="Sree Hospital Building">
+                </div>
+                <div class="reveal">
+                    <h2 class="section-title">Meet Our Expert Doctors</h2>
+                    <p class="section-subtitle">Our hospital is led by a team of dedicated and experienced surgeons. Dr. [Name] is a renowned General and Laparoscopic surgeon, while Dr. Sree Latha is a leading Gynaecologist. Together, they provide comprehensive surgical care.</p>
+                    <a href="#" class="button button-primary nav-link" data-page="about" style="margin-top: 2rem;">Meet the Team</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: var(--color-primary-purple); color: white;">
+            <div class="container text-center">
+                <h2 class="section-title">Ready to schedule your consultation?</h2>
+                <p class="section-subtitle" style="color: #e9d5ff;">Our team is here to help you. Contact us today.</p>
+                <a href="#" class="button button-secondary nav-link" data-page="contact" style="margin-top: 2rem;">Contact Us Now</a>
+            </div>
+        </section>
+    </template>
+
+    <!-- ABOUT PAGE TEMPLATE -->
+    <template id="page-about">
+        <section class="section section-light text-center">
+            <div class="container reveal">
+                <h1 class="section-title">About Sree Hospital</h1>
+                <p class="section-subtitle">Sree Hospital in Kadapa is dedicated to providing exceptional healthcare services with a focus on Patient-Centered Care.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-cols-2">
+                    <div class="reveal">
+                        <img src="images/Doctor (Dr.C. Obula Reddy).jpg" alt="Dr. C. Obula Reddy">
+                    </div>
+                    <div class="reveal">
+                        <h2>Our Mission</h2>
+                        <p>Our mission is to ensure the well-being and health of our community through Comprehensive Medical Services and Advanced Treatments. Led by Dr. Chakarala Obula Reddy, a renowned Consultant Surgeon with over 20 years of experience in General Surgery and Transplant Surgery, our hospital is committed to delivering the highest standard of care.</p>
+                        <p>From Emergency Care to specialized surgical procedures, we are here to support you. Contact us today to book an appointment and experience the exceptional care at Sree Hospital!</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2" style="margin-top: 4rem;">
+                    <div class="reveal">
+                        <h2>Dr. Chakarala Obula Reddy</h2>
+                        <h3>MS (General Surgery), FMIS</h3>
+                        <p>Dr. Chakarala Obula Reddy is a highly-skilled General and Laparoscopic Surgeon with over 20 years of dedicated experience. After completing his MBBS from Kurnool Medical College, he pursued his MS in General Surgery from the prestigious Manipal University.</p>
+                        <p>Driven by a passion for modern medicine, he obtained a Fellowship in Minimally Invasive Surgery (FMIS), allowing him to offer patients advanced laparoscopic procedures that result in less pain, smaller scars, and faster recovery times.</p>
+                    </div>
+                    <div class="reveal">
+                        <h2>Dr. Sree Latha</h2>
+                        <h3>MD (Gynaecology)</h3>
+                        <p>Dr. Sree Latha is a leading Gynaecologist in Kadapa, known for her compassionate approach and personalized treatment plans for every stage of a woman’s life. She specializes in pregnancy care, PCOS management, infertility treatments, and a wide range of gynaecological surgeries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- SERVICES PAGE TEMPLATE -->
+    <template id="page-services">
+        <section class="section section-light text-center">
+            <div class="container reveal">
+                <h1 class="section-title">Our Services</h1>
+                <p class="section-subtitle">Specialized surgical solutions tailored to your needs.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="services-grid">
+                    <!-- Obstetrics Card -->
+                    <div class="service-card reveal">
+                        <div class="service-card-image">
+                            <img src="images/Obstetrics.jpg" alt="Obstetrics">
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Obstetrics</h3>
+                            <ul class="service-list">
+                                <li>Normal & Assisted Delivery</li>
+                                <li>High-Risk Pregnancy Management</li>
+                                <li>Pregnancy Induced Hypertension (PIH)</li>
+                                <li>LSCS (Cesarean Section)</li>
+                                <li>D&C (Dilatation and Curettage)</li>
+                                <li>Hydatidiform Mole Management</li>
+                                <li>Single Port Laparoscopic Tubectomy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Gynaecology Card -->
+                    <div class="service-card reveal">
+                        <div class="service-card-image">
+                            <img src="images/Gynecology-services.jpg" alt="Gynaecology">
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Gynaecology</h3>
+                            <ul class="service-list">
+                                <li>Advanced Laparoscopic, Endoscopic & Laser Procedures</li>
+                                <li>Laparoscopic Hysterectomy & Myomectomy</li>
+                                <li>Laparoscopic Tubal Recanalisation</li>
+                                <li>Laparoscopic Ovarian Cystectomy</li>
+                                <li>Laparoscopic Ectopic Procedure</li>
+                                <li>Laparoscopic Vault Prolapse Surgery</li>
+                                <li>Hysteroscopic Polyp Excision & Septal Resection</li>
+                                <li>Infertility Diagnostic Procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- General Surgery Card -->
+                    <div class="service-card reveal">
+                        <div class="service-card-image">
+                            <img src="images/General Surgery-Services.jpg" alt="General Surgery">
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">General Surgery</h3>
+                            <ul class="service-list">
+                                <li>Advanced Laser & Laparoscopic Surgeries</li>
+                                <li>Diagnostic Laparoscopy</li>
+                                <li>Laparoscopic Appendicectomy & Cholecystectomy</li>
+                                <li>Laparoscopic Hernia Repair (All Types)</li>
+                                <li>Laparoscopic Spleenectomy</li>
+                                <li>Laparoscopic Surgery for Intestinal Obstruction & Peritonitis</li>
+                                <li>Laser Surgeries for Hemorrhoids, Fistula, Fissures & Varicose Veins</li>
+                                <li>Thyroid & Breast Surgery</li>
+                                <li>Hydrocele & General Surgical Procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- CONTACT PAGE TEMPLATE -->
+    <template id="page-contact">
+        <section class="section section-light text-center">
+            <div class="container reveal">
+                <h1 class="section-title">Get In Touch</h1>
+                <p class="section-subtitle">We're here to help. Reach out to us via the form below or visit us.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container grid grid-cols-2">
+                <div class="reveal">
+                    <h2>Send a Message on WhatsApp</h2>
+                    <form id="whatsapp-form" style="margin-top: 2rem;">
+                        <div>
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required style="width: 100%; padding: 0.5rem; margin-top: 0.5rem;">
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <label for="message">Your Message / Inquiry</label>
+                            <textarea id="message" rows="5" required style="width: 100%; padding: 0.5rem; margin-top: 0.5rem;"></textarea>
+                        </div>
+                        <button type="submit" class="button button-whatsapp" style="margin-top: 1rem; width: 100%;">Send on WhatsApp</button>
+                    </form>
+                    <div id="form-message" style="margin-top: 1rem;"></div>
+                </div>
+                <div class="reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.688666986264!2d78.8236116148398!3d14.47219498982465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb371e095462331%3A0x4b86b75a2f19a527!2sSree%20Hospital!5e0!3m2!1sen!2sin!4v1678273330926!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div style="margin-top: 2rem;">
+                        <p><strong>Address:</strong> 1/700-4, beside gayathri jr college, Dwaraka Nagar, Yerramukkapalli, Nagarajupeta, Kadapa, Andhra Pradesh 516001</p>
+                        <p><strong>Phone:</strong> +91 93906 28111</p>
+                        <p><strong>Hours:</strong> Mon - Sat: 9:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide-static@latest/dist/lucide.min.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+
+</body>
+</html>
